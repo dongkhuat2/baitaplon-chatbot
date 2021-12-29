@@ -1,5 +1,5 @@
 
-# Yê cầu
+# Yêu cầu
 * python
 * numpy
 * tensorflow
