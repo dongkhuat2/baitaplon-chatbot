@@ -1,5 +1,5 @@
 
-# Dependencies
+# Yê cầu
 * python
 * numpy
 * tensorflow
