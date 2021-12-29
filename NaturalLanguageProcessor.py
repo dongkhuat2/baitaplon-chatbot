@@ -40,7 +40,8 @@ class NaturalLanguageProcessor:
 									 + self.model.Similarity(word, 'ok') /
 									 + self.model.Similarity(word, 'fine') /
 									 + self.model.Similarity(word, 'good') /
-									 + self.model.Similarity(word, 'yes')) / 6.0
+									 + self.model.Similarity(word, 'yes'))
+									+ self.model.Similarity(word, 'thanks'))/ 7.0
 				#Averaged similarity to possible reject words
 				rejectProbability += (self.model.Similarity(word, 'reject') /
 									 + self.model.Similarity(word, 'deny') /
